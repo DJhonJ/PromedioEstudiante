@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="15dp">
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/txtView_Materia1"
+              android:textSize="18sp"/>
+
+    <EditText android:id="@+id/editTextMate"
+              android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:inputType="number"  />
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/txtView_Materia2"
+              android:textSize="18sp"/>
+
+    <EditText android:id="@+id/editTextIng"
+              android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:inputType="number"  />
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/txtView_Materia3"
+              android:textSize="18sp"/>
+
+    <EditText android:id="@+id/editTextQui"
+              android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:inputType="number"  />
+
+    <Button  android:id="@+id/buttonPromedio"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/promedio" />
+
+</LinearLayout>

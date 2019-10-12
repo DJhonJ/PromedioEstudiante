@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Promedio Estudiante</string>
+    <string name="txtView_Materia1">Matemática</string>
+    <string name="txtView_Materia2">Inglés</string>
+    <string name="txtView_Materia3">Química</string>
+    <string name="promedio">Calcular promedio</string>
+</resources>
